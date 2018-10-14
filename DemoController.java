@@ -11,4 +11,9 @@ public class DemoController {
 		
 		return "home";
 	}
+	GetMapping("/house")
+	public String showHouse() {
+		
+		return "home";
+	}
 }
